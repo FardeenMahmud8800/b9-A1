@@ -1,0 +1,412 @@
+ *{
+    padding: 0;
+     /* margin: 0;  */
+     box-sizing: border-box;
+} 
+
+body{
+    font-family: "Old Standard TT", serif ;
+
+}
+header{
+
+  
+    background-repeat: no-repeat;
+    /* padding: 800px;
+    margin: 100px; */
+    position: relative;
+}
+
+
+/* Banner Design */
+
+.banner-container{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    object-fit: cover;
+   
+}
+.banner-img{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.gradient{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    border-radius: 16px;
+}
+.banner-txt{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    /* padding: 10px; */
+    top: 35%;
+    margin-left: 40%;
+    
+    
+}
+
+.txt1{
+   font-size: 30px;
+   font-weight: lighter;
+   margin-left: 66px;
+   margin-bottom: 5px;
+}
+.txt2{
+    font-size: 60px;
+    font-weight: bold;
+    /* margin-left: 5px; */
+    margin-top: 0px;
+    width: 500px;
+
+}
+/* 65% off Section */
+.discount-container{
+    text-transform: uppercase;
+    margin-left: 40%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+.txt3{
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: red;
+
+
+}
+.txt4{
+    font-family: sans-serif;
+    color: red;
+    font-size: 20px;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-weight: 80px;
+}
+.txt5{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+
+}
+.NewYear-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -230px;
+    margin-top: 50px;
+}
+
+/* Party-Section */
+
+.party-container{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    object-fit: cover;
+    margin-top: 100px;
+
+   
+}
+.party-img{
+    width: 100%;
+    height: 100%;  
+
+}
+.gradient2{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    border-radius: 16px;
+}
+.party-txt{
+    
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    /* padding: 10px; */
+    top: 140%;
+    left: 10%; 
+    
+}
+
+.txt6{
+   font-size: 60px;
+   font-weight: bold;
+   margin-left: 0px;
+   margin-bottom: 5px;
+   width: 700px;
+}
+.txt7{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    /* margin-left: 5px; */
+    margin-top: 50px;
+    width: 650px;   
+}
+
+.txt8{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 30px; 
+    margin-top: 50px;
+    width: 650px;   
+}
+/* Join Now Section */
+
+.joinnow-container{
+    max-width: auto;
+    max-height: 800px;
+    margin: 0 auto;
+    /* width: 800%; */
+    height: 500px;
+    position: relative;
+    object-fit: cover;
+    padding: 130px;
+    background-color:white;
+    margin-top: 130px;
+   
+}
+.gradient3{
+    height: 100%;
+    width: 100%;
+    /* background-color:red; */
+    background-image: linear-gradient(to bottom, red, transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    border-radius: 16px;
+}
+.joinnow-txt{
+    
+    display: block;
+    font-weight: 400;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: black;
+    /* padding: 10px; */
+    top:35%;
+    left: 40%; 
+  
+    
+    
+}
+
+.txt9{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin-left: -5px; 
+    width: 650px;   
+    margin-top: 5px;
+
+}
+.txt10{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin-left: -30px; 
+    width: 650px;   
+}
+.txt11{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    margin-left: -50px; 
+    width: 650px;   
+}
+.btn-primary{
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    height: 50px;
+    background:red;
+    margin-left: 90px; 
+    border: none;
+}
+
+/* Coming Soon Section */
+
+.comingsoon{
+   
+}
+.comingsoon-container{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+
+      
+}
+.comingsoon-img{
+    border: 10px solid red;
+    border-radius: 250px;
+   
+    
+
+}
+
+.comingsoon-txt{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* padding: 10px; */
+    top: 255%;
+    left: 5%;  
+    margin-bottom: 5px; 
+}
+
+.txt12{
+   font-size: 20px;
+   font-weight: lighter;
+   width: 300px;
+   color: black;
+   margin-bottom: 1px;
+}
+.txt13{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 500px;
+    color: black;
+
+
+}
+.txt14{
+   font-size: 20px;
+   font-weight: lighter;
+   margin-top: 10px;
+   width: 350px;
+   color: black;
+   margin-top: 5px;
+
+}
+.hpn-img{
+   margin-left: 1150px;
+}
+
+.shorts{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* padding: 10px; */
+    top: 258%;
+    margin-left: 55%;
+}
+.txt15{
+    font-size: 40px;
+    font-weight: bold;
+    /* margin-left: 5px; */
+    margin: 0;
+    width: 200px;
+    margin-left: 90%;
+    color: red;
+
+}
+.txt16{
+    font-size: 20px;
+    /* margin-left: 5px; */
+    margin-top: 15px;
+    width:250px;
+    margin-left: 90%;
+    margin-bottom: 1000%;
+    color: black;
+}
+
+/* Holiday Section Styles */
+
+.holiday-container{
+    margin-left: 40%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+}
+.txt17{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: red;
+    margin-left: 50px;
+
+
+
+}
+.txt18{
+    font-family: "Old Standard TT", serif ;
+    color: black;
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 80px;
+    margin-left: -100px;
+
+}
+.txt19{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-left: -150px;
+    width: 630px;
+    text-align:center;
+    margin-bottom: 10px;
+
+
+}
+.holidayimg-container{
+    margin-top: 0px;
+}
+.holidayimg1{
+    display: flex;
+    position: absolute;
+    margin-left: -41%;
+    top: 320%;
+    
+}
+.holidayimg2{
+    position: absolute;
+    top: 301rem;
+    margin-left: -550px;
+    
+}
+.holidayimg3{
+    position: absolute;
+    top: 280rem;
+    margin-left: 180px;
+    
+}
+.holidayimg4{
+    position: absolute;
+    top: 275rem;
+    margin-left: 342px;
+    
+}
