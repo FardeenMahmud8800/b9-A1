@@ -1,11 +1,12 @@
  *{
-    padding: 0;
-     /* margin: 0;  */
-     box-sizing: border-box;
+     padding: 0; 
+     /* margin: 50px;   */
+    
 } 
 
 body{
-    font-family: "Old Standard TT", serif ;
+    font-family: "Merriweather", serif,"Inter", sans-serif ;
+   
 
 }
 header{
@@ -109,6 +110,7 @@ header{
     justify-content: center;
     margin-left: -230px;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 /* Party-Section */
@@ -119,7 +121,9 @@ header{
     position: relative;
     object-fit: cover;
     margin-top: 100px;
-
+    margin: 30px;
+    
+    
    
 }
 .party-img{
@@ -139,15 +143,19 @@ header{
 }
 .party-txt{
     
-    display: block;
-    justify-content: center;
-    align-items: center;
+   
+    
+    
+    
+    /* padding: 10px; */
+    
+    
+}
+.txt6,.txt7,.txt8{
     position: absolute;
     color: white;
-    /* padding: 10px; */
-    top: 140%;
+    top: 150%;
     left: 10%; 
-    
 }
 
 .txt6{
@@ -155,10 +163,12 @@ header{
    font-weight: bold;
    margin-left: 0px;
    margin-bottom: 5px;
-   width: 700px;
+   top: 105%;
+   
 }
 .txt7{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
+    top: 117%;
     font-size: 20px;
     font-weight: lighter;
     /* margin-left: 5px; */
@@ -167,7 +177,8 @@ header{
 }
 
 .txt8{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
+    top: 125%;
     font-size: 20px;
     font-weight: 500;
     margin-left: 30px; 
@@ -177,9 +188,10 @@ header{
 /* Join Now Section */
 
 .joinnow-container{
+    padding: 130px;
     max-width: auto;
     max-height: 800px;
-    margin: 0 auto;
+    margin: 20px;
     /* width: 800%; */
     height: 500px;
     position: relative;
@@ -218,7 +230,7 @@ header{
 }
 
 .txt9{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     margin-left: -5px; 
     width: 650px;   
@@ -226,13 +238,13 @@ header{
 
 }
 .txt10{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     margin-left: -30px; 
     width: 650px;   
 }
 .txt11{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     margin-left: -50px; 
     width: 650px;   
@@ -249,47 +261,61 @@ header{
 
 /* Coming Soon Section */
 
-.comingsoon{
-   
-}
 .comingsoon-container{
+    padding: 0;
+    margin: 10px;
     width: 100%;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-
-
+    position: relative;
       
 }
 .comingsoon-img{
+    padding: 50px 50px;
     border: 10px solid red;
-    border-radius: 250px;
+    border-radius: 350px;
+    margin-left: 36%;
+    margin-bottom: 100px;
+   
    
     
 
 }
 
 .comingsoon-txt{
-    display: inline-block;
     justify-content: center;
     align-items: center;
     position: absolute;
     /* padding: 10px; */
-    top: 255%;
-    left: 5%;  
-    margin-bottom: 5px; 
+    top:300rem;
+    left:8%;  
+    padding: 10px 10px;
+    margin: 20px;
+    
+}
+
+.txt15,.txt16,.hpn-img{
+    position: absolute;
+    margin-right: 9%;
+}
+.txt12,.txt13,.txt14{
+    
+    margin-left: 9%;
+    
+    
+    
 }
 
 .txt12{
+    position: absolute;
    font-size: 20px;
+   top: 7rem;
    font-weight: lighter;
    width: 300px;
-   color: black;
-   margin-bottom: 1px;
+   color: red;
+   
 }
 .txt13{
+    position: absolute;
+    top: 11rem;
     font-size: 40px;
     font-weight: bold;
     margin-top: 10px;
@@ -300,113 +326,344 @@ header{
 
 }
 .txt14{
+    position: absolute;
+    top: 15rem;
    font-size: 20px;
    font-weight: lighter;
    margin-top: 10px;
    width: 350px;
    color: black;
-   margin-top: 5px;
+ 
+ 
 
 }
 .hpn-img{
-   margin-left: 1150px;
+    /* margin-left: 1150px; */
+     top: 20rem;
+    margin-left: 70%; 
+   
+
+   
 }
 
-.shorts{
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    /* padding: 10px; */
-    top: 258%;
-    margin-left: 55%;
-}
 .txt15{
+    font-family: "Inter", sans-serif;
+    margin-top: 30px;
     font-size: 40px;
     font-weight: bold;
     /* margin-left: 5px; */
-    margin: 0;
     width: 200px;
-    margin-left: 90%;
+    margin-left: 70%;
     color: red;
+    top:5rem;
+    padding: 10px 10px;
+
+   
 
 }
 .txt16{
+    top:10rem;
     font-size: 20px;
     /* margin-left: 5px; */
-    margin-top: 15px;
     width:250px;
-    margin-left: 90%;
-    margin-bottom: 1000%;
+    /* margin-top: 10px; */
+    /* top:8rem; */
+    margin-left: 70%;
+    margin-bottom: 30px;
     color: black;
+    padding: 10px 10px;
+
 }
 
 /* Holiday Section Styles */
-
-.holiday-container{
-    margin-left: 40%;
-    display: block;
-    justify-content: center;
-    align-items: center;
+.holiday{
+   
+    
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
 
 }
+
+.holiday-container{
+    padding: 50px;
+    margin: 50px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+    margin-left: 1%;
+    
+
+
+}
+.holiday-container, .txt17,.txt18,.txt19{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    
+
+}
+.txt17,.txt18,.txt19{
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+/* .holidaytxt-container{
+    text-align: center;
+    margin-right: 30%;
+  
+} */
 .txt17{
-    font-family: sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 15px;
     color: red;
-    margin-left: 50px;
 
 
 
 }
 .txt18{
-    font-family: "Old Standard TT", serif ;
+    
     color: black;
     font-size: 60px;
     margin-top: 5px;
     margin-bottom: 5px;
     font-weight: 80px;
-    margin-left: -100px;
+    /* margin-left: -100px; */
 
 }
 .txt19{
     font-family: sans-serif;
     font-size: 18px;
-    margin-top: 60px;
-    margin-left: -150px;
-    width: 630px;
-    text-align:center;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 0px;
 
 
 }
-.holidayimg-container{
-    margin-top: 0px;
-}
-.holidayimg1{
-    display: flex;
-    position: absolute;
-    margin-left: -41%;
-    top: 320%;
+.holidayimg1, .holidayimg2, .holidayimg3, .holidayimg4{
     
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+}
+
+.holidayimg1{
+    position: absolute;
+    top:45%;
+    left: 28.3rem;
+
 }
 .holidayimg2{
-    position: absolute;
-    top: 301rem;
-    margin-left: -550px;
+    margin-top: 35%;
+    left:12.5rem;
     
 }
 .holidayimg3{
     position: absolute;
-    top: 280rem;
-    margin-left: 180px;
+    left: 74rem;
+    top:53%;
+
+
     
 }
 .holidayimg4{
     position: absolute;
-    top: 275rem;
-    margin-left: 342px;
+    top: 45.9%;
+    left: 83.8rem;
+
     
+}
+
+/* Gift Section */
+
+.gift-container{
+   
+    padding: 20px;
+    margin: 10px;
+    text-align: justify;
+
+}
+.txt20,.txt21,.txt22{
+    margin-left: 21%;
+
+}
+.txt20{
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    color: red;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.txt21{
+    margin-top: 10px;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.txt22{
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+    font-size: 25px;
+   
+}
+.giftimg-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: 470px 470px ;
+    grid-template-columns: 450px 450px 450px;
+}
+/* Subscribe Section */
+
+.subscribe-container{
+    padding: 130px;
+    max-width: auto;
+    max-height: 800px;
+    margin: 20px;
+    height: 500px;
+    position: relative;
+    object-fit: cover;
+    padding: 100px;
+    background-color:white;
+    margin: 500px;
+   
+}
+.gradient3{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+    border-radius: 16px;
+}
+.subscribe-txt{
+    
+    display: block;
+    font-weight: 400;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: black;
+    /* padding: 10px; */
+    top:35%;
+    left: 40%; 
+  
+    
+    
+}
+.subscribeimg{
+    /* position: absolute;
+    top: -10rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -105px;
+    margin-left: 9%;
+}
+
+
+.txt28{
+    font-size: 45px;
+    font-style: normal;
+    margin-left: -19%; 
+    width: 650px;   
+    margin-top: 5px;
+    text-align: center;
+
+}
+.txt29{
+    font-family: "Inter", sans-serif;
+    margin-left: -64%; 
+    text-align: center;
+    font-weight: lighter; 
+}
+.searchbar{
+    margin-left: 15%;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+}
+form{
+    border: none;
+    border-radius: 50px;
+    margin-left: -10%;
+    background-color: white;
+    width: 400px;
+    height: 55px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.btn-primary2{
+    border-radius: 0 50px 50px 0;
+    color: white;
+    width: 300px;
+    height: 55px;
+    background:red;
+    margin-left: 90px; 
+    border: none;
+}
+
+/* Footer Section */
+
+footer{
+    display: flex;
+    gap: 100px;
+    background: rgb(7, 2, 17);
+    margin-top: 500px;
+    padding: 300px 80px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.footer-column{
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.social-links{
+    margin-top: 50px;
+    margin-left: 40%;
+    margin-bottom: 50px;
+}
+
+
+.txt23,.txt24,.txt25,.txt26,.txt27{
+    font-family: "Inter", sans-serif;
+    color:white;
+    font-size: 24px;
+    font-weight: 300;
+}
+.txt23{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.txt24,.txt25, .txt27{
+    position: absolute;
+    left: 75%;
+   
+}
+.txt24{
+    top: 21%;
+    
+}
+.txt25{
+    top: 26%;
+    
+}
+.txt26{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+}
+.txt27{
+    top: 60%;
+    left: 80%;
+
 }
